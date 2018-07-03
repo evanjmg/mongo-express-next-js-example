@@ -1,7 +1,13 @@
 import * as React from 'react'
 import {Nav} from './Nav'
 
-export class Header extends React.Component<undefined, undefined> {
+export class Header extends React.Component<any, any> {
+  constructor(props) {
+    super(props)
+  }
+  componentDidMount(): void {
+  }
+
   render() {
     return (
       <div>
